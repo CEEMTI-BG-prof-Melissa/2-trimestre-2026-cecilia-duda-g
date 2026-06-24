@@ -1,0 +1,19 @@
+a{
+  color:yellow;
+}
+a:hover{
+background:blue
+}
+}
+a:visited{
+  background:green
+}
+a:focus{
+  border: whithe
+}
+a::firt{
+font-weigth:bolder;
+  
+  
+
+  
