@@ -1,18 +1,39 @@
-a{
+{
   color:yellow;
 }
+
 a:hover{
-background:blue
+background:blue;
 }
-}
+
 a:visited{
-  background:green
+  color:green;
 }
+
 a:focus{
-  border: whithe
+  border: whithe;
 }
-a::firt{
-font-weigth:bolder;
+
+li::firt-child{
+  font-weigth:bolder;
+}
+
+li:last-child{
+  color:aqua;
+}
+
+li:nth-child(odd){
+  background-color:rgb(255, 191, 202);
+}
+
+li:nth-child(even){
+    background-color:rgb(176, 255, 229);
+}
+
+input:required{
+  border:10px solid rgb(154, 230, 230);
+}
+
   
   
 
