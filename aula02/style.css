@@ -33,7 +33,12 @@ li:nth-child(even){
 input:required{
   border:10px solid rgb(154, 230, 230);
 }
+input(required):focus{
+  color:aqua;
+}
+email:valid
 
+  
   
   
 
